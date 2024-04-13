@@ -31,6 +31,16 @@ a {
 
 p {
   line-height: 1.5;
+  text-align: justify;
+}
+
+/* Screen/Print visibility classes */
+.print-only {
+  display: none;
+}
+
+.screen-only {
+  display: block;
 }
 
 .wrapper {
@@ -99,7 +109,11 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 20px;
+  }
+  .contact-container {
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
   .container-block-title {
     text-transform: uppercase;
@@ -157,6 +171,33 @@ p {
       }
     }
   }
+
+  .skills-container {
+    .skillset-sidebar {
+      .item-sidebar {
+        margin-bottom: 15px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      .level-title-sidebar {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-weight: 500;
+      }
+      .level-bar-sidebar {
+        height: 12px;
+        background: $smoky-white;
+        @include border-radius(3.5px);
+      }
+      .level-bar-inner-sidebar {
+        height: 12px;
+        background: lighten($theme-color, 15%);
+        @include border-radius(3.5px);
+      }
+    }
+  }
 }
 
 .main-wrapper {
@@ -172,6 +213,7 @@ p {
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
+    margin-left: -30px;
   }
   .section {
     margin-bottom: 60px;
@@ -219,6 +261,13 @@ p {
     color: $text-grey;
   }
 
+  /* Justify all running text sections */
+  .intro,
+  .summary,
+  .details {
+    text-align: justify;
+  }
+
   .project-title {
     font-size: 16px;
     font-weight: 400;
@@ -228,9 +277,10 @@ p {
   }
   .projects-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
     .item {
+      margin-left: 20px;
       margin-bottom: 15px;
     }
   }
@@ -256,9 +306,51 @@ p {
   }
   .publications-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
     .item {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .engagement-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    margin-bottom: 1px;
+  }
+  .engagement-authors {
+    font-style: italic;
+    color: $text-grey;
+    margin-bottom: 1px;
+  }
+  .engagements-section {
+    .intro {
+      margin-bottom: 15px;
+    }
+    .item {
+      margin-bottom: 30px;
+    }
+  }
+
+  .contribution-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    margin-bottom: 1px;
+  }
+  .contribution-authors {
+    font-style: italic;
+    color: $text-grey;
+    margin-bottom: 1px;
+  }
+  .contributions-section {
+    .intro {
+      margin-bottom: 15px;
+    }
+    .item {
+      margin-left: 20px;
       margin-bottom: 15px;
     }
   }

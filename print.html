@@ -12,6 +12,8 @@ permalink: /print
 
 {% include experiences.html %}
 
+{% include engagement.html %}
+
 {% include certifications.html %}
 
 {% include projects.html %}
@@ -20,6 +22,8 @@ permalink: /print
 
 {% include publications.html %}
 
-{% include recommendations.html %}
+{% include contributions.html %}
 
-{% include skills.html %}
+{% unless site.data.data.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}

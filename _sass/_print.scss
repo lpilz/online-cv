@@ -1,55 +1,295 @@
-@media print {
-  @page {
-    size: A4;
-  }
-  body {
-    font-size: 9pt;
-    background-color: white;
-    padding: 0;
-  }
-  .wrapper {
-    max-width: 100%;
-  }
+@media print
+   {
+    @page {
+        size: A4;
+    }
 
-  //   img.avatar {
-  //     filter: grayscale(1);
-  //     -webkit-filter: greyscale(1);
-  //   }
-  .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
-    //  float: right;
-    //  color: black !important;
-    -webkit-print-color-adjust: exact;
-  }
-  .sidebar-wrapper {
-    position: static;
-    //  float: right;
-    //  width: 40%;
-    -webkit-print-color-adjust: exact;
-  }
+    html, body {
+       font-size: 10pt;
+       padding: 0;
+       margin: 0;
+       height: 100%;
+    }
 
-  .remove-container.container-block {
-    display: none;
-  }
+    /* Force color printing */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    /* Remove link URLs that appear after links */
+    a[href]:after {
+        content: none !important;
+    }
+
+    /* Show print-only, hide screen-only */
+    .screen-only {
+        display: none !important;
+    }
+
+    .print-only {
+        display: block !important;
+    }
+
+   .main-wrapper .time {
+       float: right;
+        color: $text-grey !important;
+        -webkit-print-color-adjust: exact;
+        font-size: 10pt;
+   }
+
+    /* Match the grid proportions: sidebar 33%, main 67% */
+    .wrapper {
+        display: block;
+        max-width: 100%;
+        position: relative;
+        min-height: 100vh;
+    }
+
+    /* Create background extension with pseudo-element */
+    .wrapper::before {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 33%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: $theme-color !important;
+        -webkit-print-color-adjust: exact;
+        z-index: 0;
+    }
+
+    .wrapper::after {
+        content: "";
+        position: fixed;
+        left: 33%;
+        top: 0;
+        width: 67%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: #fff !important;
+        -webkit-print-color-adjust: exact;
+        z-index: 0;
+    }
+
+    /* Sidebar stays on first page only */
+    .sidebar-wrapper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 33%;
+        max-height: 100vh;
+        overflow: hidden;
+        -webkit-print-color-adjust: exact;
+        background-color: transparent !important;
+        font-size: 10pt;
+        z-index: 1;
+    }
+
+    .main-wrapper {
+       margin-left: 33%;
+       width: 67%;
+       padding: 25px;
+       padding-bottom: 60px;
+       font-size: 10pt;
+       position: relative;
+       z-index: 1;
+       background-color: transparent;
+   }
+
+    .remove-container.container-block {
+       display: none;
+    }
 
   footer {
     display: none;
   }
 
-  .skillset,
-  .container-block {
-    break-inside: avoid;
-  }
+    /* Match sidebar profile container background */
+    .sidebar-wrapper .profile-container {
+        background: rgba(0, 0, 0, 0.2) !important;
+        -webkit-print-color-adjust: exact;
+        padding: 18px;
+    }
 
-  .skillset .level-bar-inner {
-    background-color: $theme-color !important;
-    -webkit-print-color-adjust: exact;
-  }
+    /* Ensure avatar stays in color and same size as screen version */
+    .sidebar-wrapper .profile-container .avatar,
+    .sidebar-wrapper .avatar,
+    img.avatar {
+        max-width: 90px !important;
+        margin-bottom: 12px !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .skillset .level-bar {
+        background-color: $smoky-white !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .skillset .level-bar-inner {
+       background-color: lighten($theme-color, 15%) !important;
+       -webkit-print-color-adjust: exact;
+    }
+
+    .skillset-sidebar .level-bar-sidebar {
+        background-color: $smoky-white !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .skillset-sidebar .level-bar-inner-sidebar {
+       background-color: lighten($theme-color, 15%) !important;
+       -webkit-print-color-adjust: exact;
+    }
 
    .fa-inverse,
    .fa-inverse:after,
    .fa-inverse:before {
      color: #ffffff !important;
+   }
+
+   /* First container block (after profile) gets specific padding */
+   .sidebar-wrapper .container-block {
+      padding: 20px;
+   }
+   .sidebar-wrapper .contact-container {
+      padding-top: 20px;
+      padding-bottom: 0px;
+   }
+
+
+   .sidebar-wrapper .name {
+       font-size: 23pt;
+       margin-bottom: 4px;
+   }
+
+   .sidebar-wrapper .tagline {
+       font-size: 11pt;
+   }
+
+   .sidebar-wrapper .container-block-title {
+       font-size: 11pt;
+       margin-bottom: 8px;
+   }
+
+   .sidebar-wrapper .contact-list li,
+   .sidebar-wrapper .languages-list li,
+   .sidebar-wrapper .interests-list li {
+       margin-bottom: 4px;
+       font-size: 10pt;
+   }
+
+   .sidebar-wrapper .education-container .item {
+       margin-bottom: 8px;
+   }
+
+   .sidebar-wrapper .skills-container .item-sidebar {
+       margin-bottom: 8px;
+   }
+
+   .sidebar-wrapper .degree {
+       margin-bottom: 3px;
+       font-size: 10pt;
+   }
+
+   /* Main content font sizes - matching relative sizes from HTML */
+   .main-wrapper .section-title {
+       font-size: 13pt;
+       margin-bottom: 11px;
+       margin-left: -8px;
+       margin-top: 0;
+       padding-top: 7px;
+   }
+
+   /* Item headlines - 11pt (matching 16px from HTML relative to 14px base) */
+   .main-wrapper .job-title,
+   .main-wrapper .degree,
+   .main-wrapper .cert-title,
+   .main-wrapper .project-title,
+   .main-wrapper .publication-title,
+   .main-wrapper .engagement-title,
+   .main-wrapper .contribution-title {
+       font-size: 11pt;
+   }
+
+   /* Company/University/Organization names - 10pt */
+   .main-wrapper .company,
+   .main-wrapper .university,
+   .main-wrapper .cert-org {
+       font-size: 10pt;
+   }
+
+   /* Details text (paragraphs and lists) - 10pt */
+   .main-wrapper p,
+   .main-wrapper li {
+       font-size: 10pt;
+       line-height: 1.4;
+   }
+
+   /* Page breaks - allow sections to break naturally */
+   .main-wrapper .section {
+       page-break-inside: auto;
+       margin-bottom: 12px;
+       padding-top: 5px;
+   }
+
+   /* Prevent section title from appearing alone at bottom of page */
+   .main-wrapper .section-title {
+       page-break-after: avoid;
+   }
+
+   /* Reduce spacing in publications and engagements sections */
+   .main-wrapper .publications-section .item,
+   .main-wrapper .engagements-section .intro,
+   .main-wrapper .contributions-section .intro {
+       margin-bottom: 8px;
+   }
+
+   /* Tighter spacing for engagement and contribution sections */
+   .main-wrapper .engagements-section,
+   .main-wrapper .contributions-section {
+       margin-bottom: 10px;
+   }
+
+   /* Allow page breaks between items, but avoid breaking inside items */
+   .main-wrapper .experiences-section .item,
+   .main-wrapper .educations-section .item,
+   .main-wrapper .projects-section .item,
+   .main-wrapper .publications-section .item,
+   .main-wrapper .engagements-section .item {
+       page-break-inside: avoid;
+       page-break-after: auto;
+   }
+
+   .main-wrapper .experiences-section .item,
+   .main-wrapper .educations-section .item {
+       margin-bottom: 15px;
+   }
+
+   .main-wrapper .projects-section .item {
+       margin-bottom: 8px;
+   }
+   
+   .main-wrapper .engagements-section .item {
+       margin-bottom: 15px;
+   }
+
+   /* Prevent orphaned headers */
+   .main-wrapper .upper-row,
+   .main-wrapper .second-upper-row {
+       page-break-after: avoid;
+   }
+
+   .main-wrapper .job-title,
+   .main-wrapper .degree,
+   .main-wrapper .cert-title,
+   .main-wrapper .project-title,
+   .main-wrapper .publication-title,
+   .main-wrapper .engagement-title,
+   .main-wrapper .contribution-title {
+       page-break-after: avoid;
    }
 
     /* Hide buttons when printing */

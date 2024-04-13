@@ -11,14 +11,16 @@ layout: default
 
 {% include experiences.html %}
 
-{% include certifications.html %}
+{% include publications.html %}
 
 {% include projects.html %}
 
 {% include oss-contributions.html %}
 
-{% include publications.html %}
+{% include contributions.html %}
 
-{% include recommendations.html %}
+{% unless site.data.data.sidebar.skills %}
+  {% include skills.html %}
+{% endunless %}
 
-{% include skills.html %}
+{% include engagement.html %}

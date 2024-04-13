@@ -3,284 +3,337 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+    skills: True
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Lukas Pilz
+    tagline: Environmental physicist with a passion for software development
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    # Sidebar links
+    email: lukas.pilz@iup.uni-heidelberg.de
+    phone:
+    timezone: Berlin, Germany
+    citizenship: German
+    website:  #do not add http://
+    orcid: 0000-0002-0552-8037
+    linkedin: lukas-pilz-1104561bb
+    xing:
+    github: lpilz
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon: # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+    languages:
+      title: Languages
+      info:
+        - idiom: German
+          level: Native
 
-    - idiom: French
-      level: Professional
+        - idiom: English
+          level: Professional
 
-    - idiom: Spanish
-      level: Professional
+        - idiom: French
+          level: Intermediate
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
+    interests:
+      title: Interests
+      info:
+        - item: Political Engagement
+          link:
 
+        - item: Climbing
+          link:
 
-    - item: Snowboarding
-      link:
+        - item: Hiking
+          link:
 
+        - item: Snowboarding
+          link:
 
-    - item: Cooking
-      link:
+        - item: Cooking
+          link:
 
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    title: Career Profile
+    summary: |
+      I am an environmental physicist with expertise in atmospheric modelling, data assimilation, and scientific programming. My PhD at Heidelberg University focuses on improving urban CO<sub>2</sub> estimation using high-resolution meteorological modeling. I combine strong computational and software engineering skills with a drive to make environmental science more quantitative, efficient, and actionable.
+    # I am an environmental physicist with a background in programming and software engineering.
+    # I am passionate about making science actionable and have a strong interest in high-performance computing and software development.
+    # Currently, I am finishing my PhD at the Institute of Environmental Physics at Heidelberg University.
+    # My thesis is aimed at improving urban CO<sub>2</sub> estimation using high-resolution meteorological modelling and data assimilation.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: PhD Studies (Grade magna cum laude 1.0)
+      university: Institute of Environmental Physics, Heidelberg University
+      time: 05/2021 - 01/2026
+      details: |
+        - Thesis: Monitoring urban greenhouse gas emissions using high-resolution models
+        - Aim: Improving greenhouse gas emissions estimates of German metropolitan areas within the joint research project ITMS
+        - Focus: Environmental physics, computational physics
+        - Methods: high-resolution meteorological modelling, trace gas transport modelling, data assimilation
+        - Skills: Python programming, Fortran development, high-performance computing, project management, independent work, data analysis, engaging with project collaborators and stakeholders, public communication of research
+    - degree: MSc. Physics (Grade 1.4)
+      university: Institute of Environmental Physics, Heidelberg University
+      time: 09/2017 - 01/2021
+      details: |
+        - Thesis: Towards urban CO<sub>2</sub> emissions monitoring: Evaluation of network sensors and meso-scale modeling
+        - Focus: Environmental physics, computational physics
+        - Skills: Python programming, independent work, data analysis
+    - degree: BSc. Physics (Grade 1.9)
+      university: Kirchhoff Institute for Physics, Heidelberg University
+      time: 09/2013 - 09/2017
+      details: |
+        - Thesis: Towards Fast Iterative Learning on the BrainScaleS Neuromorphic Hardware System
+        - Focus: Computational physics, software engineering
+        - Skills: C++ software engineering, independent work, data analysis
+
 
 experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    title: Experiences
+    info:
+      - role: HCE College member
+        time: 10/2021 - 01/2026
+        company: Heidelberg University
+        details: |
+          - Member of graduate program on climate science
+          - Participated in interdisciplinary exchange through workshops, presentations, and discussion
+      - role: Fulbright Visiting Researcher Scholarship
+        time: 09/2022 - 12/2022
+        company: NCAR, United States
+        details: |
+          - Awarded a scholarship in the Doktorand:innenprogramm of the German American Fulbright Commission
+          - Conducted research on WRF-Urban at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado with Prof. Fei Chen
+      - role: Collegio Futuro (Climate action science)
+        time: 11/2021 - 07/2022
+        company: 4EU+
+        details: |
+          - Participated in multidisciplinary, international graduate school program on Environmental Sciences
+          - Led the development of the paper Schwerdtle et al., 2023
+      - role: ERASMUS+ Scholarship
+        time: 09/2018 - 06/2019
+        company: The University of York, United Kingdom
+        details: |
+          - Completed coursework in high-performance computing, software engineering, and quantum computing
+          - Studied social movement theory (political science) and the philosophy of mind and language
+      # - role: Student assistant
+      #   time: 04/2017 - 09/2017
+      #   company: Visual Computing group of Prof. Sadlo, Heidelberg University
+      #   details:
+      # - role: Student assistant
+      #   time: 12/2016 - 03/2017
+      #   company: Electronic Vision(s) group of Prof. Schemmel, Heidelberg University
+      #   details:
 
 certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
   title: OSS Contributions
   intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    I initiated and co-led the <tt>xwrf</tt> development, enabling scalable WRF output analysis in xarray/dask and integrating it into the Pangeo ecosystem.
   contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: xwrf
+      link: "https://github.com/xarray-contrib/xwrf"
+      tagline: "A lightweight interface for working with the Weather Research and Forecasting (WRF) model output in Xarray."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: wps_xr
+      link: "https://github.com/lpilz/wps_xr"
+      tagline: "A collection of tools to integrate WRF/WPS geogrid binary datasets into the xarray ecosystem."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: portraitpy
+      link: "https://github.com/ATMO-IUP-UHEI/portraitpy"
+      tagline: "A matplotlib wrapper for creating portrait or Gleckler plots (Gleckler et al., 2008)"
 
 publications:
   title: Publications
   intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
+    I have authored and co-authored several peer-reviewed publications in the fields of environmental physics and climate science.
+    I have furthermore published a high-resolution, high-fidelity dataset containing CO and CO<sub>2</sub> concentrations as well as meteorological fields over German metropolitan areas and Europe.
   papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    - title: Evaluation of high-resolution WRF simulation in urban areas — Effect of different physics schemes on simulation performance in the Rhine-Main-Neckar area
+      link: "https://doi.org/10.1016/j.atmosres.2025.108435"
+      authors: <b>L. Pilz</b>, C. Lüken-Winkels, M. Gałkowski, D. Ho, C. Gerbig, F. Chen, S. N. Vardag
+      conference: "Atmospheric Research 2026"
+    - title: MACRO-2018 - High-Resolution Simulation of CO and CO<sub>2</sub> concentrations over German Metropolitan Areas for 2018 using WRF-Chem
+      link: "https://doi.org/10.26050/WDCC/MACRO-2018"
+      authors: <b>L. Pilz</b>, H. Denier van der Gon, T. Glauch, J. Marshall, S. N. Vardag
+      conference: "WDCC 2025"
+    - title: Interlinkages between climate change impacts, public attitudes and climate action - Exploring trends before and after the Paris Agreement in the EU
+      link: "https://doi.org/10.3390/su15097542"
+      # authors: T. Schwerdtle, E. Cavan, <b>L. Pilz</b>, S. Oggioni, A. Crosta, V. Kaleyeva, P. Karim, F. Szarvas, T. Naryniecki, M. Jungmann
+      authors: T. Schwerdtle, E. Cavan, <b>L. Pilz</b>, S. Oggioni, [...], M. Jungmann
+      conference: "Sustainability 2023"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+contributions:
+  title: Conference Contributions
+  intro: |
+    I contributed to various conference contributions and publications during my studies.
+    I also contributed to the development of the Tumble-Vortex Core Line Extraction algorithm, which is used to extract core lines from 3D flow fields and generated test datasets for that study.
+  intro_print: |
+    I have contributed to 10 conference contributions, including presentations at the EGU and AGU General Assembly (2021-2025, 2022), and DACH (2022). My contributions focus on urban CO<sub>2</sub> emissions monitoring as well as high-resolution modeling. I also contributed to the development of the Tumble-Vortex Core Line Extraction algorithm in a conference paper to SIGRAPI 2017.
+  contributions:
+    - title: Designing CO<sub>2</sub> sensor networks for German cities - Insights from synthetic studies in Berlin and Munich
+      link: "http://doi.org/10.5194/egusphere-egu25-10382"
+      authors: C. Lüken-Winkels, L. Pilz, et al.
+      conference: "EGU General Assembly 2025"
+    - title: High-resolution meteorological CO<sub>2</sub> enhancements of German metropolitan areas using WRF
+      link: "https://doi.org/10.5194/egusphere-egu24-8915"
+      authors: L. Pilz, C. Lüken-Winkels, et al.
+      conference: "EGU General Assembly 2024"
+    - title: A combined dataset of path-averaged and in-situ measurements of greenhouse gases to inform on the sensitivities to localized source patterns and transport effects in the urban atmosphere.
+      link: "https://doi.org/10.5194/egusphere-egu24-11113"
+      authors: T. Schmitt, L. Pilz, et al.
+      conference: "EGU General Assembly 2024"
+    - title: High-resolution inversion of Berlin city emissions – A synthetic study using FLEXPART-WRF for network optimization within ITMS
+      link: "https://doi.org/10.5194/egusphere-egu24-9996"
+      authors: C. Lüken-Winkels, L. Pilz, et al.
+      conference: "EGU General Assembly 2024"
+    - title: Long open-path measurements of CO<sub>2</sub> and CH<sub>4</sub> with an 125HR FTS in an urban environment.
+      link: "https://doi.org/10.5194/egusphere-egu23-4403"
+      authors: T. Schmitt, et al.
+      conference: "EGU General Assembly 2023"
+    - title: Optimizing High-Resolution Simulations with the Weather Research and Forecasting (WRF) Model for the German Rhine-Neckar Metropolitan Region
+      link: "https://doi.org/10.22541/essoar.167591054.45628540/v1"
+      authors: L. Pilz, M. Gałkowski, et al.
+      conference: "AGU General Assembly 2022"
+    - title: Towards Carbon Dioxide emission estimation with a stationary hyperspectral camera
+      link: "https://doi.org/10.5194/egusphere-egu22-3924"
+      authors: M. Knapp, et al.
+      conference: "EGU General Assembly 2022"
+    - title: Hochaufgelöste Simulation von meteorologischen Feldern in urbanen Räumen mit dem Weather Research and Forecasting (WRF) Modell
+      link: "https://doi.org/10.5194/dach2022-69"
+      authors: L. Pilz, S. N. Vardag, et al.
+      conference: "DACH 2022"
+    - title: Towards an integrated study of urban CO<sub>2</sub> emissions
+      link: "https://doi.org/10.5194/egusphere-egu21-2724"
+      authors: L. Pilz, S. N. Vardag, et al.
+      conference: "EGU General Assembly 2021"
+    - title: Tumble-Vortex Core Line Extraction
+      link: "https://sibgrapi2017.ic.uff.br/e-proceedings/assets/papers/WVIS/WVIS1.pdf"
+      authors: P. Jung, P. Hausner, L. Pilz, et al.
+      conference: "SIGRAPI 2017 (WVIS Workshop)"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+engagements:
+  title: Engagement
+  intro_print: |
+    I have been actively engaged in climate action and sustainability initiatives since 2019. Key roles include coordinating Students For Future Heidelberg (2019–2020), which lobbied the university to establish the Working Group Sustainability; serving as students' representative for ecology and sustainability (2020–2022) and successfully lobbying for a climate manager position at the university within the Working Group Sustainability; leading the bicycle infrastructure vision project of the Working Group Climate for the Green Party Heidelberg (2020–2024) and serving as students' representative on the expert panel of Radstrategie 2030 for Heidelberg city. I also contributed as a full-stack developer to The Greenspect Project, an initiative aimed at extracting GHG emissions information from sustainability reports, and as Eastern Europe editor to The York Politics Review.
+  info:
+    - role: Project Leader
+      time: 12/2020 - 02/2024
+      company: Working Group Climate, Bündnis 90/Die Grünen, Heidelberg
+      details: |
+        The Working Group Climate of the Heidelberg chapter of the Green Party had a project for using open-data approaches to develop a vision for a bicycle path network for Heidelberg.
+        This network aims to provide the blueprint for a safe, uninterrupted, and resilient cycling infrastructure which will be able to accommodate the significant increase in cyclists set to accompany the mobility transition.
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+        Key Responsibilities:
+          - Initiated and coordinated the process to develop the bike path network vision
 
-      He is a great employee!
+        Key Achievements:
+          - Established a participatory process with interest groups and stakeholders
+          - Organized and conducted a public participation event which was attended by ca. 100 citizens
+          - Working to integrate this vision into the Radstrategie 2030 of the Heidelberg municipal council and administration
+    - role: Full Stack Developer
+      time: 03/2021 - 07/2021
+      company: The Greenspect Project e.V.
+      details: |
+        The Greenspect Project e.V. was a non-profit association dedicated to making companies’ sustainability reports machine-readable and publicly accessible through the use of convolutional neural networks (CNN).
+
+        Key Responsibilities:
+          - Supporting the development of a CNN for the extraction of sustainability data from company reports
+
+        Key Achievements:
+          - Independently developed a desktop application and backend infrastructure for tagging training data
+          - Developed an infrastructure for storage of tagged training data
+    - role: Students' representative for Ecology and Sustainability
+      time: 05/2020 - 07/2022
+      company: Students' Council (StuRa), Heidelberg University
+      details: |
+        The Student’s Council (StuRa) is the students’ representation at Heidelberg University.
+        The representatives are elected by the student body to represent their interests in certain areas of expertise.
+
+        Key Responsibilities:
+          - Preparation of resolutions for the Students’ Union
+          - Representation of the Students’ Union towards the university rectorate and administration
+          - Coordination and support of student initiatives
+
+        Key Achievements:
+          - Led the negotiations about climate action with the university rectorate and administration
+          - Successfully lobbied for the hiring of a dedicated climate manager at Heidelberg University
+          - Collaborated with the Working Group Climate and Environment of the state Baden-Württemberg’s students’ representation to affect state legislation
+    - role: Lead Negotiator and Coordinator
+      time: 11/2019 - 05/2020
+      company: Students For Future Heidelberg
+      details: |
+        Students For Future Heidelberg is a student-led organization dedicated to climate action and sustainability at Heidelberg's higher education institutions.
+
+        Key Responsibilities:
+          - Coordination of the organization’s policy activities
+          - Relationship management with the university rectorate and administration
+          - Project management of the Public Climate School, a week-long event which aimed to raise awareness about climate change and sustainability
+
+        Key Achievements:
+          - Coordinated the formulation of a [50-point demands catalogue](https://fridaysforfuture-heidelberg.de/forderungen_lang) with regards to sustainability
+          - Organized and conducted a students’ assembly with over 500 participants
+          - Established the Working Group Sustainability at Heidelberg University
+    - role: Eastern Europe Editor
+      time: 02/2019 - 06/2019
+      company: The York Politics Review
+      details: |
+        The York Politics Review is a student-led political science journal at the University of York.
+
+        Key Responsibilities:
+          - Writing articles on Eastern European politics and security
+          - Editing articles on Eastern European politics and security
+
+        Key Achievements:
+          - Published 2 articles on Russian foreign policy:
+            - [Are Russian military provocations sabre-rattling or a prelude to war?](https://bit.ly/russian-military-provocations2)
+            - [Quo vadis, Russia?](https://bit.ly/quo-vadis-russia)
+
 
 skills:
   title: Skills &amp; Proficiency
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+    toolset:
+      - name: Python
+        level: 90%
 
-  - name: Javascript & jQuery
-    level: 98%
+      - name: C++
+        level: 70%
 
-  - name: Angular
-    level: 98%
+      - name: Fortran
+        level: 60%
 
-  - name: HTML5 & CSS
-    level: 95%
+      - name: Unix/Bash
+        level: 90%
 
-  - name: Ruby on Rails
-    level: 85%
+      - name: High-Performance Computing
+        level: 90%
 
-  - name: Sketch & Photoshop
-    level: 60%
+      - name: Software Engineering
+        level: 60%
 
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: WRF
+        level: 70%
+
+      - name: ICON
+        level: 30%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

@@ -1,0 +1,42 @@
+{% assign engagement = site.data.data.engagements %}
+{% if engagement %}
+<section class="section engagements-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ engagement.title }}
+  </h2>
+
+  {% if page.layout == 'print' %}
+    {% if engagement.intro_print %}
+    <div class="intro">
+      {{ engagement.intro_print | markdownify }}
+    </div><!--//intro-->
+    {% endif %}
+  {% else %}
+    {% if engagement.intro %}
+    <div class="intro">
+      {{ engagement.intro | markdownify }}
+    </div><!--//intro-->
+    {% endif %}
+    
+    {% for info in engagement.info %}
+      <div class="item">
+        <div class="upper-row">
+          <h3 class="engagement-title">{{ info.role }}</h3>
+          <div class="time">{{ info.time }}</div>
+        </div><!--//upper-row-->
+        <div class="engagement-authors">{{ info.company }}</div>
+        <div class="details">
+          {{ info.details | markdownify }}
+        </div><!--//details-->
+      </div><!--//item-->
+    {% endfor %}
+  {% endif %}
+
+</section><!--//section-->
+{% endif %}
+
