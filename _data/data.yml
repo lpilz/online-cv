@@ -4,43 +4,43 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Lukas Pilz
+    tagline: Environmental physicist with a passion for software development
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: lukas.pilz@iup.uni-heidelberg.de
+    phone:
+    timezone: Berlin, Germany
+    citizenship: German
+    website:  #do not add http://
+    linkedin: lukas-pilz-1104561bb
+    xing: 
+    github: lpilz
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: # http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: German
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: French
+          level: Intermediate
 
     interests:
       title: Interests
@@ -48,7 +48,7 @@ sidebar:
         - item: Climbing
           link:
 
-        - item: Snowboarding
+        - item: Hiking
           link:
 
         - item: Cooking
@@ -57,208 +57,154 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an environmental physicist with a background in programming and software engineering.
+      I am passionate about making science actionable and have a strong interest in high-performance computing and software development.
+      Currently, I am working on my PhD at the Institute of Environmental Physics at Heidelberg University, where I am developing a network design for urban CO<sub>2</sub> monitoring and verification infrastructure using high-resolution meteorological modelling.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: PhD Studies
+        university: Institute of Environmental Physics, Heidelberg University
+        time: since 05/2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          - <b>Topic</b>: Network design for urban CO<sub>2</sub> monitoring and verification infrastructure using high resolution meteorological modelling
+      - degree: MSc. Physics
+        university: Institute of Environmental Physics, Heidelberg University
+        time: 09/2017 - 01/2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - <b>Thesis</b>: Towards Urban CO<sub>2</sub> Emissions Monitoring: Evaluation of Network Sensors and Meso-Scale Modelling
+          - <b>Focus</b>: Environmental Physics, Computational Physics
+          - <b>Skills</b>: project management, independent work, scientific work, data analysis, programming
+      - degree: BSc. Physics
+        university: Kirchhoff Institute for Physics, Heidelberg University
+        time: 09/2013 - 09/2017
+        details: |
+          - <b>Thesis</b>: Towards Fast Iterative Learning on the BrainScaleS Neuromorphic Hardware System
+          - <b>Focus</b>: computational physics, software engineering
+          - <b>Skills</b>: project management, independent work, scientific work, data analysis, programming
+
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Fulbright Visiting Researcher Scholarship
+        time: 09/2022 - 12/2022
+        company: NCAR, United States
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I was awarded a Fulbright Visiting Researcher Scholarship to conduct research at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado.
+          There, I worked on optimizing high-resolution meteorological simulations in urban areas using the Weather Research and Forecasting Model (WRF).
+          This work was part of my PhD research at the Institute of Environmental Physics at Heidelberg University.
+      - role: ERASMUS+ Scholarship
+        time: 09/2018 - 06/2019
+        company: The University of York, United Kingdom
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I was granted an ERASMUS+ Scholarship to study at the University of York in the United Kingdom.
+          There, I took courses on high-performance computing and software engineering as well as quantum computing.
+          I also took courses on Social Movement Theory (Political Science) and the Philosophy of Mind and Language.
+      - role: Student assistant
+        time: 04/2017 - 09/2017
+        company: Visual Computing group of Prof. Sadlo, Heidelberg University
+        details:
+      - role: Student assistant
+        time: 12/2016 - 03/2017
+        company: Electronic Vision(s) group of Prof. Schemmel, Heidelberg University
+        details:
 
 certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      I initiated the project and led the development of the xwrf package, which makes working with WRF model scalable and efficient using xarray.
+      I also authored the wps_xr package, which is making WRF/WPS geogrid binary datasets accessible using xarray.
+
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: xwrf
+        link: "https://github.com/xarray-contrib/xwrf"
+        tagline: "A lightweight interface for working with the Weather Research and Forecasting (WRF) model output in Xarray."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: wps_xr
+        link: "https://github.com/lpilz/wps_xr"
+        tagline: "A collection of tools to integrate WRF/WPS geogrid binary datasets into the xarray ecosystem."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      I led the development of the paper on the interlinkages between climate change impacts, public attitudes and climate action in the EU.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Interlinkages between climate change impacts, public attitudes and climate action - Exploring trends before and after the Paris Agreement in the EU
+        link: "https://doi.org/10.3390/su15097542"
+        authors: T. Schwerdtle, E. Cavan, L. Pilz, et al.
+        conference: "Sustainability 2023"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+contributions:
+    title: Contributions
+    intro: |
+      I contributed to various conference contributions and publications during my studies.
+      I also contributed to the development of the Tumble-Vortex Core Line Extraction algorithm, which is used to extract core lines from 3D flow fields and generated test datasets for that study.
+    contributions:
+      - title: High-resolution meteorological CO<sub>2</sub> enhancements of German metropolitan areas using WRF
+        link: "https://doi.org/10.5194/egusphere-egu24-8915"
+        authors: L. Pilz, C. Lüken-Winkels, et al.
+        conference: "EGU General Assembly 2024"
+      - title: A combined dataset of path-averaged and in-situ measurements of greenhouse gases to inform on the sensitivities to localized source patterns and transport effects in the urban atmosphere.
+        link: "https://doi.org/10.5194/egusphere-egu24-11113"
+        authors: T. Schmitt, L. Pilz, et al.
+        conference: "EGU General Assembly 2024"
+      - title: High-resolution inversion of Berlin city emissions – A synthetic study using FLEXPART-WRF for network optimization within ITMS
+        link: "https://doi.org/10.5194/egusphere-egu24-9996"
+        authors: C. Lüken-Winkels, L. Pilz, et al.
+        conference: "EGU General Assembly 2024"
+      - title: Long open-path measurements of CO<sub>2</sub> and CH<sub>4</sub> with an 125HR FTS in an urban environment.
+        link: "https://doi.org/10.5194/egusphere-egu23-4403"
+        authors: T. Schmitt, et al.
+        conference: "EGU General Assembly 2023"
+      - title: Optimizing High-Resolution Simulations with the Weather Research and Forecasting (WRF) Model for the German Rhine-Neckar Metropolitan Region
+        link: "https://doi.org/10.22541/essoar.167591054.45628540/v1"
+        authors: L. Pilz, M. Gałkowski, et al.
+        conference: "AGU General Assembly 2022"
+      - title: Towards Carbon Dioxide emission estimation with a stationary hyperspectral camera
+        link: "https://doi.org/10.5194/egusphere-egu22-3924"
+        authors: M. Knapp, et al.
+        conference: "EGU General Assembly 2022"
+      - title: Hochaufgelöste Simulation von meteorologischen Feldern in urbanen Räumen mit dem Weather Research and Forecasting (WRF) Modell
+        link: "https://doi.org/10.5194/dach2022-69"
+        authors: L. Pilz, S. N. Vardag, et al.
+        conference: "DACH 2022"
+      - title: Towards an integrated study of urban CO<sub>2</sub> emissions
+        link: "https://doi.org/10.5194/egusphere-egu21-2724"
+        authors: L. Pilz, S. N. Vardag, et al.
+        conference: "EGU General Assembly 2021"
+      - title: Tumble-Vortex Core Line Extraction
+        link: "https://sibgrapi2017.ic.uff.br/e-proceedings/assets/papers/WVIS/WVIS1.pdf"
+        authors: P. Jung, P. Hausner, L. Pilz, et al.
+        conference: "SIGRAPI 2017 (WVIS Workshop)"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python
+        level: 90%
+
+      - name: C++
+        level: 80%
+
+      - name: Julia
+        level: 50%
+
+      - name: Fortran
+        level: 40%
+
+      - name: Unix/Bash
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: High-Performance Computing
         level: 98%
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Software Engineering
         level: 60%
 
 footer: >
