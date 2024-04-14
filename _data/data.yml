@@ -183,6 +183,82 @@ contributions:
         authors: P. Jung, P. Hausner, L. Pilz, et al.
         conference: "SIGRAPI 2017 (WVIS Workshop)"
 
+engagements:
+    title: Engagement
+    info:
+      - role: Project Leader
+        time: since 12/2020
+        company: Working Group Climate, Bündnis 90/Die Grünen, Heidelberg
+        details: |
+          The Working Group Climate of the Heidelberg chapter of the Green Party had a project for using open-data approaches to develop a vision for a bicycle path network for Heidelberg.
+          This network aims to provide the blueprint for a safe, uninterrupted and resilient cycling infrastructure which will be able to accommodate the significant increase in cyclists set to accompany the mobility transition.
+
+          <b>Key Responsibilities</b>:
+            - Initiated and coordinated the process to develop the bike path network vision
+
+          <b>Key Achievements</b>:
+            - Established a participatory process with interest groups and stakeholders
+            - Organized and conducted a public participation event which was attended by ca. 100 citizens
+            - Working to integrate this vision into the Radstrategie 2030 of the Heidelberg municipal council and administration
+      - role: Full Stack Developer
+        time: 03/2021 - 07/2021
+        company: The Greenspect Project e.V.
+        details: |
+          The Greenspect Project e.V. was a non-profit association dedicated to making companies’ sustainability reports machine-readable and publicly accessible through the use of convolutional neural networks (CNN).
+
+          <b>Key Responsibilities</b>:
+            - Supporting the development of a CNN for the extraction of sustainability data from company reports
+
+          <b>Key Achievements</b>:
+            - Independently developed a desktop application and backend infrastructure for tagging training data
+            - Developed an infrastructure for storage of tagged training data
+      - role: Students' representative for Ecology and Sustainability
+        time: 05/2020 - 07/2022
+        company: Students' Council (StuRa), Heidelberg University
+        details: |
+          The Student’s Council (StuRa) is the student’s representation at Heidelberg University.
+          The representatives are elected by the student body to represent their interest in certain areas of expertise.
+
+          <b>Key Responsibilities</b>:
+            - Preparation of resolutions for the Student’s Union
+            - Representation of the Student’s Union towards the university rectorate and administration
+            - Coordination and support of student initiatives
+
+          <b>Key Achievements</b>:
+            - Led the negotiations about Climate Action with the university rectorate and administration
+            - Successfully lobbied for the hiring of a dedicated climate manager at Heidelberg University
+            - Collaborated with the Working Group Climate and Environment of the state Baden-Württemberg’s Student’s representation to affect state legislation
+      - role: Lead Negotiator and Coordinator
+        time: 11/2019 - 05/2020
+        company: Students For Future Heidelberg
+        details: |
+          Students For Future Heidelberg is a student-led organization dedicated to climate action and sustainability at Heidelberg's higher education institutions.
+
+          <b>Key Responsibilities</b>:
+            - Coordination of the organization’s policy activities
+            - Relationship management with the university rectorate and administration
+            - Project management of the Public Climate School, a week-long event which aimed to raise awareness about climate change and sustainability
+
+          <b>Key Achievements</b>:
+            - Coordinated the formulation of a 50-point demands catalogue with regards to sustainability
+            - Organized and conducted a student’s assembly with over 500 participants
+            - Established the Working Group Sustainability at Heidelberg University
+      - role: Eastern Europe Editor
+        time: 02/2019 - 06/2019
+        company: The York Politics Review
+        details: |
+          The York Politics Review is a student-led political science journal at the University of York.
+
+          <b>Key Responsibilities</b>:
+            - Writing articles on Eastern European politics and security
+            - Editing articles on Eastern European politics and security
+
+          <b>Key Achievements</b>:
+            - Published 2 articles on Russian foreign policy:
+              - [Are Russian military provocations sabre-rattling or a prelude to war?](https://bit.ly/russian-military-provocations2)
+              - [Quo vadis, Russia?](https://bit.ly/quo-vadis-russia)
+
+
 skills:
     title: Skills &amp; Proficiency
 
