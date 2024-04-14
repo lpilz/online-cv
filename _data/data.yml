@@ -183,6 +183,57 @@ contributions:
         authors: P. Jung, P. Hausner, L. Pilz, et al.
         conference: "SIGRAPI 2017 (WVIS Workshop)"
 
+engagements:
+    title: Engagement
+    info:
+      - role: Full Stack Developer
+        time: 03/2021 - 07/2021
+        company: The Greenspect Project e.V.
+        details: |
+          The Greenspect Project e.V. is a non-profit association dedicated to making companies’ sustainability data machine-readable and publicly accessible.
+          Its mission is predicated on the notion that an informed public is vital to a sustainable transition.
+          To that end, it aims to create a machine learning-based solution which extracts data on carbon emissions from PDF-formatted sustainability reports using convolutional neural networks (CNN).
+          In this postion, I contributed my software engineering and data analysis skills in the development of front- and backend infrastructure, data handling as well as CNN design.
+            - <b>Skills</b>: teamwork, project management, software engineering, data analysis, programming
+      - role: Group Leader
+        time: 12/2020 - 12/2021
+        company: Bündnis 90/Die Grünen, Heidelberg
+        details: |
+          In the Working Group Climate of the Heidelberg chapter of the Green Party, I led a sub-group which is using open-data approaches to develop a vision for a bicycle path network for Heidelberg.
+          This vision is supposed to help guide city investments like maintenance projects and street remodeling.
+          It aims to provide the blueprint for a safe, uninterrupted and resilient cycling network which will be able to accommodate the significant increase in cyclists set to accompany the mobility transition.
+          I initiated and coordinated this project.
+          I also established and led a participation process with interest groups and stakeholders, resulting in a shared vision, which is now being adapted into the Radstrategie 2030 of the Heidelberg  municipal council and administration. 
+            - <b>Skills</b>: project management, coordination, relationship management
+      - role: Students' representative for Ecology and Sustainability
+        time: 05/2020 - 07/2022
+        company: Students' Council (StuRa), Heidelberg University
+        details: |
+          As Student’s representative for Ecology and Sustainability, I was tasked with the preparation of resolutions for the Student’s Union and their representation to the university.
+          I was representing the Student’s Unions interests towards the university rectorate and administration, for example in the university’s Working Group Sustainability, wherein I was working to set the university on the path to climate neutrality.
+          In this context, I collaborated with peers from the Working Group Climate and Environment of the state Baden-Württemberg’s Student’s representation to effect state legislation.
+          I worked together with my three co-representatives on these tasks as well as on coordinating and supporting student initiatives.
+            - <b>Skills</b>: teamwork, coordination, relationship management
+      - role: Lead Negotiator and Coordinator
+        time: 11/2019 - 07/2022
+        company: Students For Future Heidelberg
+        details: |
+          I co-founded Students For Future Heidelberg and helped organize the first Public Climate School in Heidelberg.
+          In the organization phase, I spearheaded and coordinated the formulation of a 50-point demands catalogue with regards to sustainability, directed at Heidelberg’s research institutions.
+          I prepared and co-moderated a student’s assembly with over 500 participants wherein this catalogue was ratified.
+          In its wake, the Working Group Sustainability – a forum between the rectorate, university administration and students – was created with this catalogue building the basis of negotiations.
+          There, I led the negotiations as students’ representative and due to our continuous pressure, a dedicated climate manager tasked with budgeting the university’s climate impact was hired.
+            - <b>Skills</b>: project management, coordination, relationship management
+      - role: Eastern Europe Editor
+        time: 02/2019 - 06/2019
+        company: The York Politics Review
+        details: |
+          - <b>Publications</b>:
+            - Are Russian military provocations sabre-rattling or a prelude to war?
+            - Quo vadis, Russia?
+          - <b>Skills</b>: initiative, creativity, writing skills, research skills
+
+
 skills:
     title: Skills &amp; Proficiency
 
