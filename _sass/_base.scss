@@ -418,7 +418,7 @@ p {
 .print-button {
   position: fixed;
   top: 20px;
-  right: 120px; // Changed from 20px to make space for the PDF button
+  right: 20px;
   z-index: 1000;
   background: $theme-color;
   color: #fff;

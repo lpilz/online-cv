@@ -8,7 +8,9 @@ function print() {
 }
 
 function generatePDF() {
-  // Use the same print dialog as the print button for better quality
+  // Use the browser's native print dialog for best quality
+  // JavaScript PDF generators can't match the browser's rendering quality,
+  // especially with complex layouts like the continuous sidebar background
   const printWindow = window.open("/print", "_blank");
   printWindow.onload = function () {
     printWindow.print();
