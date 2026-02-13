@@ -27,6 +27,9 @@ a {
   &:focus {
     text-decoration: none;
   }
+  &[href]:after {
+    content: none !important;
+  }
 }
 
 p {
@@ -67,6 +70,13 @@ p {
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
+  }
+  .profile-container.no-avatar {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .name {
     font-size: 32px;
@@ -186,6 +196,13 @@ p {
         margin-bottom: 8px;
         font-weight: 500;
       }
+      .level-title-sidebar.skill-score {
+        display: flex;
+        justify-content: space-between;
+        .score-value {
+          font-weight: 700;
+        }
+      }
       .level-bar-sidebar {
         height: 12px;
         background: $smoky-white;
@@ -286,7 +303,7 @@ p {
   }
   .oss-section {
     .intro {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
     .item {
       margin-bottom: 15px;
@@ -318,6 +335,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     color: $text-color;
+    margin-top: 0;
     margin-bottom: 1px;
   }
   .engagement-authors {
@@ -338,6 +356,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     color: $text-color;
+    margin-top: 0;
     margin-bottom: 1px;
   }
   .contribution-authors {
@@ -365,6 +384,13 @@ p {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
+  }
+  .level-title.skill-score {
+    display: flex;
+    justify-content: space-between;
+    .score-value {
+      font-weight: 700;
+    }
   }
   .level-bar {
     height: 12px;

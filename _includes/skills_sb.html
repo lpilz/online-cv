@@ -8,13 +8,21 @@
 
   <div class="skillset-sidebar">
     {% for skill in skills.toolset %}
+    {% if page.layout != 'print' or skill.print != false %}
     <div class="item-sidebar">
-      <h3 class="level-title-sidebar">{{ skill.name }}</h3>
-      {% assign skill_level = skill.level %}
-      <div class="level-bar-sidebar">
-        <div class="level-bar-inner-sidebar" data-level="{{skill_level}}" style="width: {{skill_level}}"></div>
-      </div>
+      {% if skills.format == 'score' %}
+        {% assign skill_percentage = skill.level | remove: '%' | plus: 0 %}
+        {% assign skill_score = skill_percentage | divided_by: 10.0 | round %}
+        <h3 class="level-title-sidebar skill-score">{{ skill.name }}: <span class="score-value">{{ skill_score }}/10</span></h3>
+      {% else %}
+        <h3 class="level-title-sidebar">{{ skill.name }}</h3>
+        {% assign skill_level = skill.level %}
+        <div class="level-bar-sidebar">
+          <div class="level-bar-inner-sidebar" data-level="{{skill_level}}" style="width: {{skill_level}}"></div>
+        </div>
+      {% endif %}
     </div>
+    {% endif %}
     {% endfor %}
   </div>
 

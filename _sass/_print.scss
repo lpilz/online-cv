@@ -2,6 +2,7 @@
    {
     @page {
         size: A4;
+        margin: 0;
     }
 
     html, body {
@@ -114,11 +115,19 @@
         padding: 18px;
     }
 
+    .sidebar-wrapper .profile-container.no-avatar {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* Ensure avatar stays in color and same size as screen version */
     .sidebar-wrapper .profile-container .avatar,
     .sidebar-wrapper .avatar,
     img.avatar {
-        max-width: 90px !important;
+        max-width: 170px !important;
         margin-bottom: 12px !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
@@ -192,6 +201,17 @@
    .sidebar-wrapper .degree {
        margin-bottom: 3px;
        font-size: 10pt;
+   }
+
+   .sidebar-wrapper .level-title-sidebar.skill-score,
+   .main-wrapper .level-title.skill-score {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .sidebar-wrapper .skill-score .score-value,
+   .main-wrapper .skill-score .score-value {
+       font-weight: 700;
    }
 
    /* Main content font sizes - matching relative sizes from HTML */

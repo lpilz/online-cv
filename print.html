@@ -3,27 +3,48 @@ layout: print
 permalink: /print
 ---
 
+{% assign print_config = site.data.data.print %}
 
+{% if print_config.show_career_profile %}
 {% include career-profile.html %}
+{% endif %}
 
+{% if print_config.show_education %}
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
+{% endif %}
 
+{% if print_config.show_experiences %}
 {% include experiences.html %}
+{% endif %}
 
-{% include engagement.html %}
-
-{% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
+{% if print_config.show_publications %}
 {% include publications.html %}
+{% endif %}
 
+{% if print_config.show_oss %}
+{% include oss-contributions.html %}
+{% endif %}
+
+{% if print_config.show_contributions %}
 {% include contributions.html %}
+{% endif %}
 
+{% if print_config.show_engagement %}
+{% include engagement.html %}
+{% endif %}
+
+{% if print_config.show_certifications %}
+{% include certifications.html %}
+{% endif %}
+
+{% if print_config.show_projects %}
+{% include projects.html %}
+{% endif %}
+
+{% if print_config.show_skills %}
 {% unless site.data.data.sidebar.skills %}
   {% include skills.html %}
 {% endunless %}
+{% endif %}

@@ -7,6 +7,7 @@ sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
     skills: True
+    show_avatar: True # set to False to hide the profile picture
 
     # Profile information
     name: Lukas Pilz
@@ -26,7 +27,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+    bluesky:  # Specify your full Bluesky handle
     twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
@@ -60,17 +61,23 @@ sidebar:
         - item: Hiking
           link:
 
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
+print:
+    # Configure which sections appear in the print version
+    show_career_profile: True
+    show_education: True
+    show_experiences: True
+    show_engagement: True
+    show_certifications: True
+    show_projects: True
+    show_oss: True
+    show_publications: True
+    show_contributions: False
+    show_skills: True
 
 career-profile:
     title: Career Profile
     summary: |
-      I am an environmental physicist with expertise in atmospheric modelling, data assimilation, and scientific programming. My PhD at Heidelberg University focuses on improving urban CO<sub>2</sub> estimation using high-resolution meteorological modeling. I combine strong computational and software engineering skills with a drive to make environmental science more quantitative, efficient, and actionable.
+      I am an environmental physicist with expertise in atmospheric modelling, data assimilation, and scientific programming. My PhD at Heidelberg University focussed on optimizing urban CO<sub>2</sub> emissions using high-resolution meteorological modeling. I combine strong computational and software engineering skills with a drive to make environmental science more quantitative, efficient, and actionable.
     # I am an environmental physicist with a background in programming and software engineering.
     # I am passionate about making science actionable and have a strong interest in high-performance computing and software development.
     # Currently, I am finishing my PhD at the Institute of Environmental Physics at Heidelberg University.
@@ -107,6 +114,7 @@ experiences:
     title: Experiences
     info:
       - role: HCE College member
+        print: false
         time: 10/2021 - 01/2026
         company: Heidelberg University
         details: |
@@ -119,6 +127,7 @@ experiences:
           - Awarded a scholarship in the Doktorand:innenprogramm of the German American Fulbright Commission
           - Conducted research on WRF-Urban at the National Center for Atmospheric Research (NCAR) in Boulder, Colorado with Prof. Fei Chen
       - role: Collegio Futuro (Climate action science)
+        print: false
         time: 11/2021 - 07/2022
         company: 4EU+
         details: |
@@ -309,31 +318,31 @@ engagements:
 
 skills:
   title: Skills &amp; Proficiency
+  format: score # Options: bar or score (e.g., "9/10")
+  toolset:
+  - name: Python
+    level: 90%
 
-    toolset:
-      - name: Python
-        level: 90%
+  - name: C++
+    level: 70%
 
-      - name: C++
-        level: 70%
+  - name: Fortran
+    level: 60%
 
-      - name: Fortran
-        level: 60%
+  - name: Unix/Bash
+    level: 80%
 
-      - name: Unix/Bash
-        level: 90%
+  - name: High-Performance Computing
+    level: 90%
 
-      - name: High-Performance Computing
-        level: 90%
+  - name: Software Engineering
+    level: 60%
 
-      - name: Software Engineering
-        level: 60%
+  - name: WRF
+    level: 70%
 
-      - name: WRF
-        level: 70%
-
-      - name: ICON
-        level: 30%
+  - name: ICON
+    level: 30%
 
 # footer: >
 #     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

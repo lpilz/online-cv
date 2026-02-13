@@ -10,6 +10,7 @@
   </h2>
 
   {% for experience in experiences.info %}
+  {% if page.layout != 'print' or experience.print != false %}
   <div class="item">
 
     <div class="meta">
@@ -30,6 +31,7 @@
     {% endif %}
 
   </div><!--//item-->
+  {% endif %}
   {% endfor %}
 
 </section><!--//section-->

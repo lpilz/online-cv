@@ -1,9 +1,9 @@
 {% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
 
-  <div class="profile-container">
+  <div class="profile-container{% if sidebar.show_avatar == false %} no-avatar{% endif %}">
 
-    {% if sidebar.avatar %}
+    {% if sidebar.avatar and sidebar.show_avatar != false %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 

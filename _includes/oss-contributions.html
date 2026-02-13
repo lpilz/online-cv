@@ -17,6 +17,7 @@
   {% endif %}
 
   {% for contribution in oss.contributions %}
+  {% if page.layout != 'print' or contribution.print != false %}
   <div class="item">
 
     <span class="project-title">
@@ -33,6 +34,7 @@
 
   </div>
   <!--//item-->
+  {% endif %}
   {% endfor %}
 
 </section>

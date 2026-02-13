@@ -17,6 +17,7 @@
   {% endif %}
 
   {% for publication in publications.papers %}
+  {% if page.layout != 'print' or publication.print != false %}
   <div class="item">
     {% if publication.link %}
       <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
@@ -26,6 +27,7 @@
     <div class="publication-authors">{{ publication.authors }}</div>
     <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
+  {% endif %}
   {% endfor %}
 
 </section><!--//section-->
