@@ -6,10 +6,10 @@
     }
 
     html, body {
-       font-size: 10pt;
+       font-size: 10pt !important;
        padding: 0;
        margin: 0;
-       height: 100%;
+       height: auto;
     }
 
     /* Force color printing */
@@ -40,64 +40,40 @@
         font-size: 10pt;
    }
 
-    /* Match the grid proportions: sidebar 33%, main 67% */
+    /* Use flex layout for cross-browser compatibility (Firefox doesn't support position: fixed in print) */
     .wrapper {
-        display: block;
+        display: flex !important;
+        flex-wrap: nowrap;
         max-width: 100%;
         position: relative;
         min-height: 100vh;
     }
 
-    /* Create background extension with pseudo-element */
-    .wrapper::before {
-        content: "";
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 33%;
-        height: 100%;
-        min-height: 100vh;
-        background-color: $theme-color !important;
-        -webkit-print-color-adjust: exact;
-        z-index: 0;
-    }
-
+    /* Remove pseudo-elements that rely on position: fixed */
+    .wrapper::before,
     .wrapper::after {
-        content: "";
-        position: fixed;
-        left: 33%;
-        top: 0;
-        width: 67%;
-        height: 100%;
-        min-height: 100vh;
-        background-color: #fff !important;
-        -webkit-print-color-adjust: exact;
-        z-index: 0;
+        content: none !important;
+        display: none !important;
     }
 
-    /* Sidebar stays on first page only */
+    /* Sidebar stretches full height across all pages */
     .sidebar-wrapper {
-        position: absolute;
-        left: 0;
-        top: 0;
+        flex: 0 0 33%;
         width: 33%;
-        max-height: 100vh;
-        overflow: hidden;
         -webkit-print-color-adjust: exact;
-        background-color: transparent !important;
+        background-color: $theme-color !important;
         font-size: 10pt;
-        z-index: 1;
     }
 
     .main-wrapper {
-       margin-left: 33%;
+       flex: 0 0 67%;
        width: 67%;
        padding: 25px;
-       padding-bottom: 60px;
        font-size: 10pt;
-       position: relative;
-       z-index: 1;
-       background-color: transparent;
+       background-color: #fff !important;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
    }
 
     .remove-container.container-block {
@@ -245,7 +221,7 @@
    .main-wrapper p,
    .main-wrapper li {
        font-size: 10pt;
-       line-height: 1.4;
+       line-height: 1.3;
    }
 
    /* Page breaks - allow sections to break naturally */
@@ -285,7 +261,7 @@
 
    .main-wrapper .experiences-section .item,
    .main-wrapper .educations-section .item {
-       margin-bottom: 15px;
+       margin-bottom: 8px;
    }
 
    .main-wrapper .projects-section .item {
