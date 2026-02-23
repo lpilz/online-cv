@@ -175,6 +175,9 @@ publications:
     I have authored and co-authored several peer-reviewed publications in the fields of environmental physics and climate science.
     I have furthermore published a high-resolution, high-fidelity dataset containing CO and CO<sub>2</sub> concentrations as well as meteorological fields over German metropolitan areas and Europe.
   papers:
+    - title: Designing urban CO<sub>2</sub> sensor networks under realistic uncertainties and biases — Results from synthetic studies in Berlin and Munich
+      authors: C. Lüken-Winkels, <b>L. Pilz</b>, S. N. Vardag
+      conference: "Elementa: Science of the Anthropocene 2026 (in review)"
     - title: Evaluation of high-resolution WRF simulation in urban areas — Effect of different physics schemes on simulation performance in the Rhine-Main-Neckar area
       link: "https://doi.org/10.1016/j.atmosres.2025.108435"
       authors: <b>L. Pilz</b>, C. Lüken-Winkels, M. Gałkowski, D. Ho, C. Gerbig, F. Chen, S. N. Vardag
@@ -185,8 +188,7 @@ publications:
       conference: "WDCC 2025"
     - title: Interlinkages between climate change impacts, public attitudes and climate action - Exploring trends before and after the Paris Agreement in the EU
       link: "https://doi.org/10.3390/su15097542"
-      # authors: T. Schwerdtle, E. Cavan, <b>L. Pilz</b>, S. Oggioni, A. Crosta, V. Kaleyeva, P. Karim, F. Szarvas, T. Naryniecki, M. Jungmann
-      authors: T. Schwerdtle, E. Cavan, <b>L. Pilz</b>, S. Oggioni, [...], M. Jungmann
+      authors: T. Schwerdtle, E. Cavan, <b>L. Pilz</b>, S. Oggioni, A. Crosta, V. Kaleyeva, P. Karim, F. Szarvas, T. Naryniecki, M. Jungmann
       conference: "Sustainability 2023"
 
 contributions:
