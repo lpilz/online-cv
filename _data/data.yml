@@ -85,7 +85,7 @@ career-profile:
 education:
   title: Education
   info:
-    - degree: PhD Studies (Grade magna cum laude 1.0)
+    - degree: Dr. rer. nat. Physics (Grade magna cum laude 1.0)
       university: Institute of Environmental Physics, Heidelberg University
       time: 05/2021 - 01/2026
       details: |
@@ -318,7 +318,7 @@ engagements:
 
 skills:
   title: Skills &amp; Proficiency
-  format: score # Options: bar or score (e.g., "9/10")
+  format: bar # Options: bar or score (e.g., "9/10")
   toolset:
   - name: Python
     level: 90%
