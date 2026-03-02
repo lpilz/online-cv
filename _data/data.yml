@@ -10,7 +10,7 @@ sidebar:
     show_avatar: True # set to False to hide the profile picture
 
     # Profile information
-    name: Lukas Pilz
+    name: Dr. Lukas Pilz
     tagline: Environmental physicist with a passion for software development
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
@@ -175,9 +175,9 @@ publications:
     I have authored and co-authored several peer-reviewed publications in the fields of environmental physics and climate science.
     I have furthermore published a high-resolution, high-fidelity dataset containing CO and CO<sub>2</sub> concentrations as well as meteorological fields over German metropolitan areas and Europe.
   papers:
-    - title: Designing urban CO<sub>2</sub> sensor networks under realistic uncertainties and biases — Results from synthetic studies in Berlin and Munich
+    - title: "Designing urban CO<sub>2</sub> sensor networks under realistic uncertainties and biases: Results from synthetic studies in Berlin and Munich"
       authors: C. Lüken-Winkels, <b>L. Pilz</b>, S. N. Vardag
-      conference: "Elementa: Science of the Anthropocene 2026 (in review)"
+      conference: "Elementa: Science of the Anthropocene 2026 (accepted)"
     - title: Evaluation of high-resolution WRF simulation in urban areas — Effect of different physics schemes on simulation performance in the Rhine-Main-Neckar area
       link: "https://doi.org/10.1016/j.atmosres.2025.108435"
       authors: <b>L. Pilz</b>, C. Lüken-Winkels, M. Gałkowski, D. Ho, C. Gerbig, F. Chen, S. N. Vardag
